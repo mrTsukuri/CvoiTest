@@ -154,42 +154,88 @@
       </div>
     </header>
     <main>
-      <section class="baner overflow-hidden">
+      <section class="baner">
         <div class="container">
-          <div class="d-flex flex-column gap-20">
-            <div class="baner-main bg-grey rounded-10">
-              <div class="baner-main-left p-xxl-70 p-xl-40 p-sm-30 p-20 d-flex flex-column gap-sm-30 gap-10 align-items-start order-1 order-lg-0">
-                <div class="d-flex flex-column gap-15 align-items-start">
-                  <div class="bg-white rounded-pill px-sm-15 py-sm-10 px-10 py-5"> 
-                    <div class="text-uppercase fs-sm-12 fs-10 fw-sb o-0_6">до конца ноября</div>
-                  </div>
-                  <h1 class="fs-xl-50 fs-lg-40 fs-sm-30 fs-18 lh-0_9 fw-bk mb-0"><span class='text-g'>Скидка 10%</span> <br class='d-none d-lg-inline'> на ремонт</h1>
-                  <p class="fs-lg-18 fs-sm-16 fs-12 o-0_6">Оставьте онлайн-заявку, чтобы получить <br class='d-none d-lg-inline'> 10% скидку на ремонт автомобиля</p>
-                </div>
-                <form class="d-flex input-block w-100" name="baner-form" autocomplete="off">
-                  <label class="border-main position-relative main-input bg-white rounded-start-10 flex-grow-1">
-                    <input class="px-sm-30 px-20 py-sm-20 py-15 rounded-10 fs-sm-14 fs-10 border-0 bg-transparent input-phone" type="tel" placeholder="+7 (9__) ___-__-__" required><span class="border-main-br"></span>
-                  </label>
-                  <button class="border-0 bg-main_g px-sm-30 px-20 py-sm-20 py-15 fs-sm-14 fs-10 fw-bl text-white text-uppercase lh-1 flex-grow-1">Оставить заявку</button>
-                </form>
-              </div>
-              <div class="baner-main-right p-10 d-flex position-relative">
-                <div class="swiper baner-slider flex-grow-1">
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                      <div class="ratio ratio-16x9 rounded-5 h-100 overflow-hidden"><img src="images/baners-img/mainSlider.jpg" alt="Скидка на ремонт"></div>
+          <div class="d-flex flex-column gap-20 overflow-hidden">
+            <div class="swiper baner-slider w-100">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">                           
+                  <div class="baner-main bg-grey rounded-10">
+                    <div class="baner-main-left p-xxl-70 p-xl-40 p-sm-30 p-20 d-flex flex-column gap-sm-30 gap-10 align-items-start order-1 order-lg-0">
+                      <div class="d-flex flex-column gap-15 align-items-start">
+                        <div class="bg-white rounded-pill px-sm-15 py-sm-10 px-10 py-5"> 
+                          <div class="text-uppercase fs-sm-12 fs-10 fw-sb o-0_6">до конца ноября</div>
+                        </div>
+                        <h1 class="fs-xl-50 fs-lg-40 fs-sm-30 fs-18 lh-0_9 fw-bk mb-0"><span class='text-g'>Скидка 10%</span> <br class='d-none d-lg-inline'> на ремонт</h1>
+                        <p class="fs-lg-18 fs-sm-16 fs-12 o-0_6">Оставьте онлайн-заявку, чтобы получить <br class='d-none d-lg-inline'> 10% скидку на ремонт автомобиля</p>
+                      </div>
+                      <form class="d-flex input-block w-100" name="baner-form" autocomplete="off">
+                        <label class="border-main position-relative main-input bg-white rounded-start-10 flex-grow-1">
+                          <input class="px-sm-30 px-20 py-sm-20 py-15 rounded-10 fs-sm-14 fs-10 border-0 bg-transparent input-phone" type="tel" placeholder="+7 (9__) ___-__-__" required><span class="border-main-br"></span>
+                        </label>
+                        <button class="border-0 bg-main_g px-sm-30 px-20 py-sm-20 py-15 fs-sm-14 fs-10 fw-bl text-white text-uppercase lh-1 flex-grow-1">Оставить заявку</button>
+                      </form>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="baner-main-right p-10 d-flex position-relative">                                                   
                       <div class="ratio ratio-16x9 rounded-5 h-100 overflow-hidden"><img src="images/baners-img/mainSlider.jpg" alt="Скидка на ремонт"></div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="ratio ratio-16x9 rounded-5 h-100 overflow-hidden"><img src="images/baners-img/mainSlider.jpg" alt="Скидка на ремонт"></div>
+                      <div class="baner-slider-wrapper d-flex gap-10 position-absolute justify-content-between">
+                        <div class="baner-slider-prev d-flex p-5 rounded-10 bg-grey"><i class="icon u_angle-right fs-30 text-main"></i></div>
+                        <div class="baner-slider-next d-flex p-5 rounded-10 bg-grey"><i class="icon u_angle-right fs-30 text-main"></i></div>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div class="baner-slider-wrapper d-flex gap-10 position-absolute justify-content-between">
-                  <div class="baner-slider-prev d-flex p-5 rounded-10 bg-grey"><i class="icon u_angle-right fs-30 text-main"></i></div>
-                  <div class="baner-slider-next d-flex p-5 rounded-10 bg-grey"><i class="icon u_angle-right fs-30 text-main"></i></div>
+                <div class="swiper-slide">                           
+                  <div class="baner-main bg-grey rounded-10">
+                    <div class="baner-main-left p-xxl-70 p-xl-40 p-sm-30 p-20 d-flex flex-column gap-sm-30 gap-10 align-items-start order-1 order-lg-0">
+                      <div class="d-flex flex-column gap-15 align-items-start">
+                        <div class="bg-white rounded-pill px-sm-15 py-sm-10 px-10 py-5"> 
+                          <div class="text-uppercase fs-sm-12 fs-10 fw-sb o-0_6">до конца ноября</div>
+                        </div>
+                        <h1 class="fs-xl-50 fs-lg-40 fs-sm-30 fs-18 lh-0_9 fw-bk mb-0"><span class='text-g'>Скидка 10%</span> <br class='d-none d-lg-inline'> на ремонт</h1>
+                        <p class="fs-lg-18 fs-sm-16 fs-12 o-0_6">Оставьте онлайн-заявку, чтобы получить <br class='d-none d-lg-inline'> 10% скидку на ремонт автомобиля</p>
+                      </div>
+                      <form class="d-flex input-block w-100" name="baner-form" autocomplete="off">
+                        <label class="border-main position-relative main-input bg-white rounded-start-10 flex-grow-1">
+                          <input class="px-sm-30 px-20 py-sm-20 py-15 rounded-10 fs-sm-14 fs-10 border-0 bg-transparent input-phone" type="tel" placeholder="+7 (9__) ___-__-__" required><span class="border-main-br"></span>
+                        </label>
+                        <button class="border-0 bg-main_g px-sm-30 px-20 py-sm-20 py-15 fs-sm-14 fs-10 fw-bl text-white text-uppercase lh-1 flex-grow-1">Оставить заявку</button>
+                      </form>
+                    </div>
+                    <div class="baner-main-right p-10 d-flex position-relative">                                                   
+                      <div class="ratio ratio-16x9 rounded-5 h-100 overflow-hidden"><img src="images/baners-img/mainSlider.jpg" alt="Скидка на ремонт"></div>
+                      <div class="baner-slider-wrapper d-flex gap-10 position-absolute justify-content-between">
+                        <div class="baner-slider-prev d-flex p-5 rounded-10 bg-grey"><i class="icon u_angle-right fs-30 text-main"></i></div>
+                        <div class="baner-slider-next d-flex p-5 rounded-10 bg-grey"><i class="icon u_angle-right fs-30 text-main"></i></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">                           
+                  <div class="baner-main bg-grey rounded-10">
+                    <div class="baner-main-left p-xxl-70 p-xl-40 p-sm-30 p-20 d-flex flex-column gap-sm-30 gap-10 align-items-start order-1 order-lg-0">
+                      <div class="d-flex flex-column gap-15 align-items-start">
+                        <div class="bg-white rounded-pill px-sm-15 py-sm-10 px-10 py-5"> 
+                          <div class="text-uppercase fs-sm-12 fs-10 fw-sb o-0_6">до конца ноября</div>
+                        </div>
+                        <h1 class="fs-xl-50 fs-lg-40 fs-sm-30 fs-18 lh-0_9 fw-bk mb-0"><span class='text-g'>Скидка 10%</span> <br class='d-none d-lg-inline'> на ремонт</h1>
+                        <p class="fs-lg-18 fs-sm-16 fs-12 o-0_6">Оставьте онлайн-заявку, чтобы получить <br class='d-none d-lg-inline'> 10% скидку на ремонт автомобиля</p>
+                      </div>
+                      <form class="d-flex input-block w-100" name="baner-form" autocomplete="off">
+                        <label class="border-main position-relative main-input bg-white rounded-start-10 flex-grow-1">
+                          <input class="px-sm-30 px-20 py-sm-20 py-15 rounded-10 fs-sm-14 fs-10 border-0 bg-transparent input-phone" type="tel" placeholder="+7 (9__) ___-__-__" required><span class="border-main-br"></span>
+                        </label>
+                        <button class="border-0 bg-main_g px-sm-30 px-20 py-sm-20 py-15 fs-sm-14 fs-10 fw-bl text-white text-uppercase lh-1 flex-grow-1">Оставить заявку</button>
+                      </form>
+                    </div>
+                    <div class="baner-main-right p-10 d-flex position-relative">                                                   
+                      <div class="ratio ratio-16x9 rounded-5 h-100 overflow-hidden"><img src="images/baners-img/mainSlider.jpg" alt="Скидка на ремонт"></div>
+                      <div class="baner-slider-wrapper d-flex gap-10 position-absolute justify-content-between">
+                        <div class="baner-slider-prev d-flex p-5 rounded-10 bg-grey"><i class="icon u_angle-right fs-30 text-main"></i></div>
+                        <div class="baner-slider-next d-flex p-5 rounded-10 bg-grey"><i class="icon u_angle-right fs-30 text-main"></i></div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -1072,87 +1118,69 @@
       <section class="team">
         <div class="container">
           <h2 class="fs-lg-30 fs-sm-20 fs-18 fw-bl text-g mb-lg-30 mb-20">Наша команда</h2>
-          <div class="swiper slider-team">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="team-item d-flex flex-column gap-20">
-                  <div class="team-item-img pop-service-item-img ratio rounded-10 overflow-hidden bg-grey"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="images/teams/teams.jpg" alt="Иванов Иван">
-                  </div>
-                  <div class="d-flex flex-column gap-5">
-                    <div class="fs-14 fw-sb">Иванов Иван</div>
-                    <div class="fs-14 lh-1_6 o-0_7">Главный техник                                    </div>
-                  </div>
-                </div>
+          <div class="team-grid overflow-auto">
+            <div class="team-item d-flex flex-column gap-20">
+              <div class="team-item-img pop-service-item-img ratio rounded-10 overflow-hidden bg-grey"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="images/teams/teams.jpg" alt="Иванов Иван">
               </div>
-              <div class="swiper-slide">
-                <div class="team-item d-flex flex-column gap-20">
-                  <div class="team-item-img pop-service-item-img ratio rounded-10 overflow-hidden bg-grey"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="images/teams/teams.jpg" alt="Иванов Иван">
-                  </div>
-                  <div class="d-flex flex-column gap-5">
-                    <div class="fs-14 fw-sb">Иванов Иван</div>
-                    <div class="fs-14 lh-1_6 o-0_7">Главный техник                                    </div>
-                  </div>
-                </div>
+              <div class="d-flex flex-column gap-5">
+                <div class="fs-14 fw-sb">Иванов Иван</div>
+                <div class="fs-14 lh-1_6 o-0_7">Главный техник</div>
               </div>
-              <div class="swiper-slide">
-                <div class="team-item d-flex flex-column gap-20">
-                  <div class="team-item-img pop-service-item-img ratio rounded-10 overflow-hidden bg-grey"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="images/teams/teams.jpg" alt="Иванов Иван">
-                  </div>
-                  <div class="d-flex flex-column gap-5">
-                    <div class="fs-14 fw-sb">Иванов Иван</div>
-                    <div class="fs-14 lh-1_6 o-0_7">Главный техник                                    </div>
-                  </div>
-                </div>
+            </div>
+            <div class="team-item d-flex flex-column gap-20">
+              <div class="team-item-img pop-service-item-img ratio rounded-10 overflow-hidden bg-grey"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="images/teams/teams.jpg" alt="Иванов Иван">
               </div>
-              <div class="swiper-slide">
-                <div class="team-item d-flex flex-column gap-20">
-                  <div class="team-item-img pop-service-item-img ratio rounded-10 overflow-hidden bg-grey"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="images/teams/teams.jpg" alt="Иванов Иван">
-                  </div>
-                  <div class="d-flex flex-column gap-5">
-                    <div class="fs-14 fw-sb">Иванов Иван</div>
-                    <div class="fs-14 lh-1_6 o-0_7">Главный техник                                    </div>
-                  </div>
-                </div>
+              <div class="d-flex flex-column gap-5">
+                <div class="fs-14 fw-sb">Иванов Иван</div>
+                <div class="fs-14 lh-1_6 o-0_7">Главный техник</div>
               </div>
-              <div class="swiper-slide">
-                <div class="team-item d-flex flex-column gap-20">
-                  <div class="team-item-img pop-service-item-img ratio rounded-10 overflow-hidden bg-grey"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="images/teams/teams.jpg" alt="Иванов Иван">
-                  </div>
-                  <div class="d-flex flex-column gap-5">
-                    <div class="fs-14 fw-sb">Иванов Иван</div>
-                    <div class="fs-14 lh-1_6 o-0_7">Главный техник                                    </div>
-                  </div>
-                </div>
+            </div>
+            <div class="team-item d-flex flex-column gap-20">
+              <div class="team-item-img pop-service-item-img ratio rounded-10 overflow-hidden bg-grey"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="images/teams/teams.jpg" alt="Иванов Иван">
               </div>
-              <div class="swiper-slide">
-                <div class="team-item d-flex flex-column gap-20">
-                  <div class="team-item-img pop-service-item-img ratio rounded-10 overflow-hidden bg-grey"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="images/teams/teams.jpg" alt="Иванов Иван">
-                  </div>
-                  <div class="d-flex flex-column gap-5">
-                    <div class="fs-14 fw-sb">Иванов Иван</div>
-                    <div class="fs-14 lh-1_6 o-0_7">Главный техник                                    </div>
-                  </div>
-                </div>
+              <div class="d-flex flex-column gap-5">
+                <div class="fs-14 fw-sb">Иванов Иван</div>
+                <div class="fs-14 lh-1_6 o-0_7">Главный техник</div>
               </div>
-              <div class="swiper-slide">
-                <div class="team-item d-flex flex-column gap-20">
-                  <div class="team-item-img pop-service-item-img ratio rounded-10 overflow-hidden bg-grey"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="images/teams/teams.jpg" alt="Иванов Иван">
-                  </div>
-                  <div class="d-flex flex-column gap-5">
-                    <div class="fs-14 fw-sb">Иванов Иван</div>
-                    <div class="fs-14 lh-1_6 o-0_7">Главный техник                                    </div>
-                  </div>
-                </div>
+            </div>
+            <div class="team-item d-flex flex-column gap-20">
+              <div class="team-item-img pop-service-item-img ratio rounded-10 overflow-hidden bg-grey"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="images/teams/teams.jpg" alt="Иванов Иван">
               </div>
-              <div class="swiper-slide">
-                <div class="team-item d-flex flex-column gap-20">
-                  <div class="team-item-img pop-service-item-img ratio rounded-10 overflow-hidden bg-grey"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="images/teams/teams.jpg" alt="Иванов Иван">
-                  </div>
-                  <div class="d-flex flex-column gap-5">
-                    <div class="fs-14 fw-sb">Иванов Иван</div>
-                    <div class="fs-14 lh-1_6 o-0_7">Главный техник                                    </div>
-                  </div>
-                </div>
+              <div class="d-flex flex-column gap-5">
+                <div class="fs-14 fw-sb">Иванов Иван</div>
+                <div class="fs-14 lh-1_6 o-0_7">Главный техник</div>
+              </div>
+            </div>
+            <div class="team-item d-flex flex-column gap-20">
+              <div class="team-item-img pop-service-item-img ratio rounded-10 overflow-hidden bg-grey"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="images/teams/teams.jpg" alt="Иванов Иван">
+              </div>
+              <div class="d-flex flex-column gap-5">
+                <div class="fs-14 fw-sb">Иванов Иван</div>
+                <div class="fs-14 lh-1_6 o-0_7">Главный техник</div>
+              </div>
+            </div>
+            <div class="team-item d-flex flex-column gap-20">
+              <div class="team-item-img pop-service-item-img ratio rounded-10 overflow-hidden bg-grey"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="images/teams/teams.jpg" alt="Иванов Иван">
+              </div>
+              <div class="d-flex flex-column gap-5">
+                <div class="fs-14 fw-sb">Иванов Иван</div>
+                <div class="fs-14 lh-1_6 o-0_7">Главный техник</div>
+              </div>
+            </div>
+            <div class="team-item d-flex flex-column gap-20">
+              <div class="team-item-img pop-service-item-img ratio rounded-10 overflow-hidden bg-grey"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="images/teams/teams.jpg" alt="Иванов Иван">
+              </div>
+              <div class="d-flex flex-column gap-5">
+                <div class="fs-14 fw-sb">Иванов Иван</div>
+                <div class="fs-14 lh-1_6 o-0_7">Главный техник</div>
+              </div>
+            </div>
+            <div class="team-item d-flex flex-column gap-20">
+              <div class="team-item-img pop-service-item-img ratio rounded-10 overflow-hidden bg-grey"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAEALAAAAAABAAEAAAICTAEAOw==" data-src="images/teams/teams.jpg" alt="Иванов Иван">
+              </div>
+              <div class="d-flex flex-column gap-5">
+                <div class="fs-14 fw-sb">Иванов Иван</div>
+                <div class="fs-14 lh-1_6 o-0_7">Главный техник</div>
               </div>
             </div>
           </div>
